@@ -1,0 +1,19 @@
+Question1: What does __all__ do?
+Answer: 
+It declares the semantically "public" names from a module. 
+If there is a name in __all__, users are expected to use it, and they can have the expectation that it will not change.
+It also will have programmatic affects:
+
+import *
+
+__all__ in a module, e.g. module.py:
+
+__all__ = ['foo', 'Bar']
+means that when you import * from the module, only those names in the __all__ are imported:
+
+from module import *               # imports foo and Bar
+
+
+Documentation and code autocompletion tools may (in fact, should) also inspect the __all__ to determine what names to show as available from a module.
+
+__init__.py makes a directory a Python package
