@@ -1,1 +1,9 @@
 https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/
+Decorators:
+  Decorators I: Introduction to Python Decorators 
+    https://www.artima.com/weblogs/viewpost.jsp?thread=240808
+  Python Decorators II: Decorator Arguments
+    https://www.artima.com/weblogs/viewpost.jsp?thread=241209
+  Python Decorators III: A Decorator-Based Build System
+    https://www.artima.com/weblogs/viewpost.jsp?thread=241209
+  
