@@ -6,3 +6,6 @@ list of web pages I found useful
 
 # WebTest
 > https://webtest.readthedocs.io/en/latest/
+
+# elasticsearch cheatsheet
+> http://elasticsearch-cheatsheet.jolicode.com/
