@@ -2,8 +2,9 @@
 
 Your goals are:
 
-Distribute your work to many machines (distributed computing/distributed parallel processing)
-Distribute the work on a given machine across all CPUs (multiprocessing/threading)
+> Distribute your work to many machines (distributed computing/distributed parallel processing)
+> Distribute the work on a given machine across all CPUs (multiprocessing/threading)
+
 Celery can do both of these for you fairly easily. The first thing to understand is that each celery worker is configured by default to run as many tasks as there are CPU cores available on a system:
 
 Concurrency is the number of prefork worker process used to process your tasks concurrently, when all of these are busy doing work new tasks will have to wait for one of the tasks to finish before it can be processed.
@@ -20,13 +21,15 @@ tasks.py:
         def process_id(item):
             id = item #long complicated equation here
             database.objects(newid=id).save()
-        And to execute the tasks:
+            
+And to execute the tasks:
 
         from celery import group
         from tasks import process_id
 
         jobs = group(process_id.s(item) for item in list_of_millions_of_ids)
         result = jobs.apply_async()
+        
 Another option is to break the list into smaller pieces, and distribute the pieces to your workers. This approach runs the risk of wasting some cycles, because you may end up with some workers waiting around while others are still doing work. However, the celery documentation notes that this concern is often unfounded:
 
 Some may worry that chunking your tasks results in a degradation of parallelism, but this is rarely true for a busy cluster and in practice since you are avoiding the overhead of messaging it may considerably increase performance.
@@ -42,8 +45,8 @@ tasks.py:
               database.objects(newid=id).save() # Still adding one id at a time, but you don't have to.
 And to start the tasks:
 
-from tasks import process_ids
+        from tasks import process_ids
 
-jobs = process_ids.chunks(list_of_millions_of_ids, 30) # break the list into 30 chunks. Experiment with what number works best here.
-jobs.apply_async()
+        jobs = process_ids.chunks(list_of_millions_of_ids, 30) # break the list into 30 chunks. Experiment with what number works best here.
+        jobs.apply_async()
 You can experiment a bit with what chunking size gives you the best result. You want to find a sweet spot where you're cutting down messaging overhead while also keeping the size small enough that you don't end up with workers finishing their chunk much faster than another worker, and then just waiting around with nothing to do.
