@@ -3,6 +3,7 @@
 Your goals are:
 
 > Distribute your work to many machines (distributed computing/distributed parallel processing)
+
 > Distribute the work on a given machine across all CPUs (multiprocessing/threading)
 
 Celery can do both of these for you fairly easily. The first thing to understand is that each celery worker is configured by default to run as many tasks as there are CPU cores available on a system:
@@ -38,8 +39,8 @@ So, you may find that chunking the list and distributing the chunks to each task
 
 tasks.py:
 
-      @app.task
-      def process_ids(items):
+        @app.task
+        def process_ids(items):
           for item in items:
               id = item #long complicated equation here
               database.objects(newid=id).save() # Still adding one id at a time, but you don't have to.
