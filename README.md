@@ -12,3 +12,6 @@ list of web pages I found useful
 
 # algorithm preparation material blog
 > http://shlegeris.com/2016/08/14/algorithms
+
+# AWS architecture series
+> https://aws.amazon.com/this-is-my-architecture/
