@@ -18,6 +18,7 @@ list of web pages I found useful
 
 # Microservices 
 > https://koukia.ca/a-microservices-implementation-journey-part-1-9f6471fe917
+> https://koukia.ca/a-microservices-implementation-journey-part-2-10c422a4d402
 
 # AUth service
 > https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-oauth2-client-creds-grant-flow
