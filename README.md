@@ -15,3 +15,6 @@ list of web pages I found useful
 
 # AWS architecture series
 > https://aws.amazon.com/this-is-my-architecture/
+
+# Microservices 
+> https://koukia.ca/a-microservices-implementation-journey-part-1-9f6471fe917
