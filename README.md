@@ -22,3 +22,6 @@ list of web pages I found useful
 
 # AUth service
 > https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-oauth2-client-creds-grant-flow
+
+# REST API documentation
+> https://medium.com/future-vision/the-principles-of-rest-6b00deac91b3?sk=53793fd54f35c6877021a500db7bc0c4
