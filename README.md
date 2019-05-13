@@ -25,3 +25,6 @@ list of web pages I found useful
 
 # REST API documentation
 > https://medium.com/future-vision/the-principles-of-rest-6b00deac91b3?sk=53793fd54f35c6877021a500db7bc0c4
+
+# Decorators
+> https://www.codementor.io/moyosore/a-dive-into-python-closures-and-decorators-part-2-ab2enoyjg
