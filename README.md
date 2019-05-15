@@ -28,3 +28,6 @@ list of web pages I found useful
 
 # Decorators
 > https://www.codementor.io/moyosore/a-dive-into-python-closures-and-decorators-part-2-ab2enoyjg
+
+# Multithreading and Multiprocessing
+> https://www.laurentluce.com/posts/python-threads-synchronization-locks-rlocks-semaphores-conditions-events-and-queues/
