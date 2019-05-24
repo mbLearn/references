@@ -42,3 +42,6 @@ list of web pages I found useful
 
 # circle Ci tutprial
 > https://github.com/CircleCI-Public/circleci-demo-python-flask/blob/master/app/api_1_0/decorators.py
+
+# working with directories and files
+> https://realpython.com/working-with-files-in-python/
