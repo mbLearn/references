@@ -28,6 +28,13 @@ list of web pages I found useful
 
 # Decorators
 > https://www.codementor.io/moyosore/a-dive-into-python-closures-and-decorators-part-2-ab2enoyjg
+> https://github.com/CircleCI-Public/circleci-demo-python-flask/blob/master/app/api_1_0/decorators.py
 
 # Multithreading and Multiprocessing
 > https://www.laurentluce.com/posts/python-threads-synchronization-locks-rlocks-semaphores-conditions-events-and-queues/
+
+# classmethod vs staticmethod
+> https://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod
+
+# circle Ci tutprial
+> https://github.com/CircleCI-Public/circleci-demo-python-flask/blob/master/app/api_1_0/decorators.py
