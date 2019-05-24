@@ -10,6 +10,9 @@ list of web pages I found useful
 # elasticsearch cheatsheet
 > http://elasticsearch-cheatsheet.jolicode.com/
 
+# Docker Tutorial
+> https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/
+
 # algorithm preparation material blog
 > http://shlegeris.com/2016/08/14/algorithms
 
