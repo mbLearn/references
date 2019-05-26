@@ -45,3 +45,6 @@ list of web pages I found useful
 
 # working with directories and files
 > https://realpython.com/working-with-files-in-python/
+
+# BitWise Operation
+> https://www.dyclassroom.com/python/python-bitwise-operators
