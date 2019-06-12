@@ -54,3 +54,6 @@ list of web pages I found useful
 
 # python interview questions
 > https://www.bogotobogo.com/python/python_interview_questions.php
+
+# CAP theorem
+> http://robertgreiner.com/2014/06/cap-theorem-explained/
