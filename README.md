@@ -60,3 +60,6 @@ list of web pages I found useful
 
 # recursion (examples)
 > https://github.com/asweigart/recursion_examples
+
+# SSL/TLS certificate exchaneg high level
+> https://hackernoon.com/how-does-ssl-tls-make-https-secure-d247bd4e4cae
