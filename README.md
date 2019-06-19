@@ -63,3 +63,6 @@ list of web pages I found useful
 
 # SSL/TLS certificate exchaneg high level
 > https://hackernoon.com/how-does-ssl-tls-make-https-secure-d247bd4e4cae
+
+# Consistent Hashing
+> https://www.toptal.com/big-data/consistent-hashing
