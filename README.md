@@ -70,3 +70,5 @@ list of web pages I found useful
 # SWIM protocol
 > https://www.brianstorti.com/swim/
 
+# Uber's Open Source RINGPOP
+> https://eng.uber.com/intro-to-ringpop/
