@@ -66,3 +66,7 @@ list of web pages I found useful
 
 # Consistent Hashing
 > https://www.toptal.com/big-data/consistent-hashing
+
+# SWIM protocol
+> https://www.brianstorti.com/swim/
+
