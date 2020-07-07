@@ -40,7 +40,7 @@ list of web pages I found useful
 > https://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod
 > https://realpython.com/instance-class-and-static-methods-demystified/
 
-# circle Ci tutprial
+# circle Ci tutorial
 > https://github.com/CircleCI-Public/circleci-demo-python-flask/blob/master/app/api_1_0/decorators.py
 
 # working with directories and files
@@ -72,3 +72,6 @@ list of web pages I found useful
 
 # Uber's Open Source RINGPOP
 > https://eng.uber.com/intro-to-ringpop/
+
+# Shell shortcuts
+> https://www.howtogeek.com/450366/how-to-get-the-size-of-a-file-or-directory-in-linux/
