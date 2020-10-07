@@ -75,3 +75,7 @@ list of web pages I found useful
 
 # Shell shortcuts
 > https://www.howtogeek.com/450366/how-to-get-the-size-of-a-file-or-directory-in-linux/
+
+# Data Architecture
+> https://martinfowler.com/articles/data-monolith-to-mesh.html#ArchitecturalFailureModes
+
